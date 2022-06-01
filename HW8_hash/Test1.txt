@@ -1,0 +1,574 @@
+Script started on Sat 04 Dec 2021 09:15:12 PM PST
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW8[?1034h[rath014@empress forHW8]$ g++ htable.cpp elem.cpp slist.cpp llist.cpp hw8client. cpp
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW8[rath014@empress forHW8]$ ./a.out
+This App takes a list of clothing items, and fills them into a hash table with a size of 37. These clothing items are identified by 4 different parts of information: key, name, type, and color.
+What is the input file? (.txt file) input.txt
+0:[ 444 tanna skirt orange ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ 449 braden pants black ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ 232 becca top brown ]
+11:[ empty ]
+12:[ empty ]
+13:[ 420 penney dress purple ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ 909 frankie shorts grey ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ 251 valeria dress blue ]
+30:[ 696 carter pants beige ]
+31:[ empty ]
+32:[ empty ]
+33:[ 181 cartia bodysuit black ]
+34:[ 367 atkins top red 552 harriette skirt green ]
+35:[ empty ]
+36:[ empty ]
+
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+1
+What is the key to add? 7330
+What is the name of the clothing item? jordy
+What is the type of the clothing item? top
+What is the color of the clothing item? white
+Added the element in slot 30
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[ 444 tanna skirt orange ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ 449 braden pants black ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ 232 becca top brown ]
+11:[ empty ]
+12:[ empty ]
+13:[ 420 penney dress purple ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ 909 frankie shorts grey ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ 251 valeria dress blue ]
+30:[ 696 carter pants beige 30 jordy top white ]
+31:[ empty ]
+32:[ empty ]
+33:[ 181 cartia bodysuit black ]
+34:[ 367 atkins top red 552 harriette skirt green ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+1
+What is the key to add? 733
+What is the name of the clothing item? alice
+What is the type of the clothing item? jacket
+What is the color of the clothing item? pink
+Added the element in slot 30
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[ 444 tanna skirt orange ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ 449 braden pants black ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ 232 becca top brown ]
+11:[ empty ]
+12:[ empty ]
+13:[ 420 penney dress purple ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ 909 frankie shorts grey ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ 251 valeria dress blue ]
+30:[ 696 carter pants beige 30 jordy top white 733 alice jacket pink ]
+31:[ empty ]
+32:[ empty ]
+33:[ 181 cartia bodysuit black ]
+34:[ 367 atkins top red 552 harriette skirt green ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+1
+What is the key to add? 404
+What is the name of the clothing item? maria
+What is the type of the clothing item? dress
+What is the color of the clothing item? yellow
+Added the element in slot 34
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[ 444 tanna skirt orange ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ 449 braden pants black ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ 232 becca top brown ]
+11:[ empty ]
+12:[ empty ]
+13:[ 420 penney dress purple ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ 909 frankie shorts grey ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ 251 valeria dress blue ]
+30:[ 696 carter pants beige 30 jordy top white 733 alice jacket pink ]
+31:[ empty ]
+32:[ empty ]
+33:[ 181 cartia bodysuit black ]
+34:[ 367 atkins top red 552 harriette skirt green 404 maria dress yellow ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+1
+What is the key to add? 589
+What is the name of the clothing item? holland
+What is the type of the clothing item? jeans
+What is the color of the clothing item? blue
+Added the element in slot 34
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[ 444 tanna skirt orange ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ 449 braden pants black ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ 232 becca top brown ]
+11:[ empty ]
+12:[ empty ]
+13:[ 420 penney dress purple ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ 909 frankie shorts grey ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ 251 valeria dress blue ]
+30:[ 696 carter pants beige 30 jordy top white 733 alice jacket pink ]
+31:[ empty ]
+32:[ empty ]
+33:[ 181 cartia bodysuit black ]
+34:[ 367 atkins top red 552 harriette skirt green 404 maria dress yellow 589 holland jeans blue ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+1
+What is the key to add? 659
+What is the name of the clothing item? lindsey
+What is the type of the clothing item? boot
+What is the color of the clothing item? brown
+Added the element in slot 30
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[ 444 tanna skirt orange ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ 449 braden pants black ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ 232 becca top brown ]
+11:[ empty ]
+12:[ empty ]
+13:[ 420 penney dress purple ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ 909 frankie shorts grey ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ 251 valeria dress blue ]
+30:[ 696 carter pants beige 30 jordy top white 733 alice jacket pink 659 lindsey boot brown ]
+31:[ empty ]
+32:[ empty ]
+33:[ 181 cartia bodysuit black ]
+34:[ 367 atkins top red 552 harriette skirt green 404 maria dress yellow 589 holland jeans blue ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+2
+What is the key to find? 696
+Found this:
+696 carter pants beige
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+2
+What is the key to find? 404
+Found this:
+404 maria dress yellow
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+2
+What is the key to find? 733
+Found this:
+733 alice jacket pink
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+3
+What is the key to find? 696
+Found it and deleted it from slot:30
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[ 444 tanna skirt orange ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ 449 braden pants black ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ 232 becca top brown ]
+11:[ empty ]
+12:[ empty ]
+13:[ 420 penney dress purple ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ 909 frankie shorts grey ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ 251 valeria dress blue ]
+30:[ 30 jordy top white 733 alice jacket pink 659 lindsey boot brown ]
+31:[ empty ]
+32:[ empty ]
+33:[ 181 cartia bodysuit black ]
+34:[ 367 atkins top red 552 harriette skirt green 404 maria dress yellow 589 holland jeans blue ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+3
+What is the key to find? 552
+Found it and deleted it from slot:34
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[ 444 tanna skirt orange ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ 449 braden pants black ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ 232 becca top brown ]
+11:[ empty ]
+12:[ empty ]
+13:[ 420 penney dress purple ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ 909 frankie shorts grey ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ 251 valeria dress blue ]
+30:[ 30 jordy top white 733 alice jacket pink 659 lindsey boot brown ]
+31:[ empty ]
+32:[ empty ]
+33:[ 181 cartia bodysuit black ]
+34:[ 367 atkins top red 404 maria dress yellow 589 holland jeans blue ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+3
+What is the key to find? 404
+Found it and deleted it from slot:34
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+4
+The current contents are: 
+0:[ 444 tanna skirt orange ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ 449 braden pants black ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ 232 becca top brown ]
+11:[ empty ]
+12:[ empty ]
+13:[ 420 penney dress purple ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ 909 frankie shorts grey ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ 251 valeria dress blue ]
+30:[ 30 jordy top white 733 alice jacket pink 659 lindsey boot brown ]
+31:[ empty ]
+32:[ empty ]
+33:[ 181 cartia bodysuit black ]
+34:[ 367 atkins top red 589 holland jeans blue ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+5
+Saved the updated table in newout.txt
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+6
+bye
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW8[rath014@empress forHW8]$ more newout.txt
+444 tanna skirt orange
+449 braden pants black
+232 becca top brown
+420 penney dress purple
+909 frankie shorts grey
+251 valeria dress blue
+30 jordy top white
+733 alice jacket pink
+659 lindsey boot brown
+181 cartia bodysuit black
+367 atkins top red
+589 holland jeans blue
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW8[rath014@empress forHW8]$ exit
+exit
+
+Script done on Sat 04 Dec 2021 09:19:31 PM PST

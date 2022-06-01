@@ -1,0 +1,221 @@
+Script started on Sat 11 Sep 2021 07:41:16 PM PDT
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[?1034h[rath014@empress HW1P1_stack]$ g++ stack.cpp client1.cpp
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 34+
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+The result is:
+7
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ g++stack.cpp client1.cp[1@ 
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 345+*
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+5
+4
+3
+--------------
+The result is:
+27
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ g++ stack.cpp client!.cp[[1P.c1.c[C[C[C[C
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 722+-
+STACK:---------
+7
+--------------
+STACK:---------
+2
+7
+--------------
+STACK:---------
+2
+2
+7
+--------------
+The result is:
+3
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ g++ stack.cpp client1.cpp
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 34+56++
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+5
+7
+--------------
+STACK:---------
+6
+5
+7
+--------------
+The result is:
+18
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ g++ stack.cpp client1.cpp
+./.]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 12+34*45+-+
+STACK:---------
+1
+--------------
+STACK:---------
+2
+1
+--------------
+STACK:---------
+3
+3
+--------------
+STACK:---------
+4
+3
+3
+--------------
+STACK:---------
+4
+12
+3
+--------------
+STACK:---------
+5
+4
+12
+3
+--------------
+The result is:
+6
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ g++ stack.cpp client1.cpp
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 1234567891234
+STACK:---------
+1
+--------------
+STACK:---------
+2
+1
+--------------
+STACK:---------
+3
+2
+1
+--------------
+STACK:---------
+4
+3
+2
+1
+--------------
+STACK:---------
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+1
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+Error has occurred - Type is: Overflow, the expression is too long.]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ g++ stack.cpp client1.cpp
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ ./a.out
+type a postfix expression: +
+Error has occurred - Type is: Underflow, too few operands.]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ g++ stack.cpp client1.cpp
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 3+
+STACK:---------
+3
+--------------
+Error has occurred - Type is: Underflow, too few operands.]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ g++ stack.cpp client1.cpp
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 3#
+STACK:---------
+3
+--------------
+Error has occured - Type is Invalid element]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ g++ stack.cpp client1.cpp
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 2345+
+STACK:---------
+2
+--------------
+STACK:---------
+3
+2
+--------------
+STACK:---------
+4
+3
+2
+--------------
+STACK:---------
+5
+4
+3
+2
+--------------
+The result is:
+9
+Incomplete expression found.
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW1/HW1P1_stack[rath014@empress HW1P1_stack]$ exit
+exit
+
+Script done on Sat 11 Sep 2021 07:47:32 PM PDT

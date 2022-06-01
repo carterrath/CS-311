@@ -1,0 +1,56 @@
+Script started on Sat 09 Oct 2021 08:23:22 PM PDT
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW3[?1034h[rath014@empress forHW3]$ g++ llist.cpp HW3P1client.cpp
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW3[rath014@empress forHW3]$ ./a.out
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>1
+CASE 1: Basic --------------- 
+... in llist constructor...
+Step 1
+It is empty
+Step 2
+[ empty ]
+Step 3 adding 1 2 3 4
+Step 4
+[ 1 2 3 4 ]
+Step 5 deleteFront twice
+Removed: 1
+Removed: 2
+Step 6
+[ 3 4 ]
+Step 7
+It is not empty
+Step 8 deleteRear twice
+Removed: 4
+[ 3 ]
+Removed: 3
+Step 9
+It is empty
+Step 10
+Step 11
+[ 5 6 8 9 ]
+Step 12 deleteRear all
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+Step 13
+[ empty ]
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>0
+]0;rath014@empress:~/CS311Progs-Corrected/HWPrograms/forHW3[rath014@empress forHW3]$ exit
+exit
+
+Script done on Sat 09 Oct 2021 08:23:52 PM PDT
